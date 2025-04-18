@@ -1,5 +1,9 @@
 from time import time
 
+""" Get the execution time of the function the usual
+way:by getting the time before and after the
+execution,  and then calculating the difference. """
+
 def add(x,y=10):
     return x + y
 

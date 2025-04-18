@@ -1,5 +1,8 @@
 from time import time
 
+""" The decorator (@timer) is a different syntax for the
+previous 'wrapper' approach. """
+
 def timer(func):
     def wrapper_function(x,y=10):
         before = time()
